@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  width: 100%;
+  border: 1px solid black;
+}
+.container {
+    border: 1px solid green;
+    width: 100%;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.navbar .content img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50%;
+}
+
+.navbar .content .links ul {
+  display: flex;
+  gap: 26px;
+}
+
+.navbar .content .links ul li {
+  list-style: none;
+}
+
+.navbar .content .links ul li a {
+  text-decoration: none;
+  color: #4a5568;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .content button {
+  padding: 12px 28px;
+  background: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar .content .mobile-links {
+  position: absolute;
+  left: 17%;
+  top: 8%;
+  background: grey;
+  width: 66%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.navbar .content .mobile-links ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .content .mobile-links ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar .content .mobile-links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .content .menu-icon {
+  display: none;
+}
+/* hover effect */
+.navbar .content img:hover {
+    scale: 1;
+}
+
+.navbar .content .links ul li a:hover {
+  color: gainsboro;
+}
+
+.navbar .content button:hover {
+  opacity: 0.8;
+}
+
+.navbar .content .mobile-links ul li a:hover {
+  color: #000000;
+}
+
+/* Responsive Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .navbar .content img {
+    width: 60px;
+  }
+  .navbar .content .links ul li a {
+    font-size: 14px;
+  }
+  .navbar .content button {
+    padding: 12px 18px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .navbar .content img {
+    width: 48px;
+  }
+  .navbar .content .links ul li a {
+    font-size: 12px;
+  }
+  .navbar .content button {
+    padding: 12px 12px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .navbar .content {
+    justify-content: space-between;
+  }
+  .navbar .content .menu-icon {
+    display: flex;
+  }
+  .navbar .content .links {
+    display: none;
+  }
+  .navbar .content .mobile-links {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
