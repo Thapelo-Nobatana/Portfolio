@@ -7,7 +7,7 @@
   border: 1px solid black;
 }
 .container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
 }
 .content {
@@ -19,8 +19,16 @@
 
 .navbar .content img {
   width: 50px;
-  border-radius: 50%;
+  border-radius: 15%;
   height: 50%;
+}
+
+.navbar .content .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .navbar .content .links ul {
@@ -34,7 +42,7 @@
 
 .navbar .content .links ul li a {
   text-decoration: none;
-  color: #4a5568;
+  color: #000000;
   transition: 0.3s ease-in-out;
 }
 
