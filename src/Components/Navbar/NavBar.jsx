@@ -1,7 +1,7 @@
 // import React from "react";
 import "./NavBar.css";
 import { useState } from "react";
-import { TbMenuDeep } from "react-icons/tb";
+import { TbMenu2 } from "react-icons/tb";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -12,8 +12,8 @@ const NavBar = () => {
       <div className="navbar">
         <div className="container">
           <div className="content">
-            <a href="/">
-              <img src="./public/Logo.PNG" alt="Logo" />
+            <a href="/" className="logo">
+              <img src="./public/Logo.PNG" alt="Logo" /> Thapelo Nobatana
             </a>
             <nav className="links">
               <ul>
@@ -44,7 +44,7 @@ const NavBar = () => {
               </nav>
             </div>
             <button className="resume-btn">Resume</button>
-            <TbMenuDeep
+            <TbMenu2
               size={30}
               className="menu-icon"
               color="#000000"

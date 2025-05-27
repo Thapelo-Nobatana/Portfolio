@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.footer .content img {
+  width: 50px;
+  border-radius: 15%;
+  height: 50%;
+}
+.footer .content a {
+    text-decoration: none;
+    color: #000000;
+}
