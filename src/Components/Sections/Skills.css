@@ -1,0 +1,29 @@
+.skills .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.skills .content .swiper-content {
+    display: flex;
+}
+
+.swiper-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-icons .swiper-icon {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 350px;
+    align-items: center;
+    width: 320px;
+    margin: 16px 20px 60px 20px;
+}
