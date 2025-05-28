@@ -30,18 +30,26 @@ const Hero = () => {
               digital experiences that feel just right.
             </p>
             <div className="icons">
-              <div className="icon">
-                <FaGithub size={30} />
-              </div>
-              <div className="icon">
-                <FaLinkedin size={30} />
-              </div>
-              <div className="icon">
-                <IoLogoWhatsapp size={30} />
-              </div>
-              <div className="icon">
-                <FaDiscord size={30} />
-              </div>
+              <button className="icon">
+                <a href="/">
+                  <FaGithub size={30} />
+                </a>
+              </button>
+              <button className="icon">
+                <a href="http://">
+                  <FaLinkedin size={30} />
+                </a>
+              </button>
+              <button className="icon">
+                <a href="/">
+                  <IoLogoWhatsapp size={30} />
+                </a>
+              </button>
+              <button className="icon">
+                <a href="/">
+                  <FaDiscord size={30} />
+                </a>
+              </button>
             </div>
           </div>
           {/* right-side Portraite-image */}

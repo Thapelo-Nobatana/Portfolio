@@ -55,7 +55,8 @@ p {
 
 section {
   padding: 10px 0 0;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px
 }
 
 /* Media Queries */
