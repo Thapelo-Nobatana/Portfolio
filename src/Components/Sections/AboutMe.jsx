@@ -18,7 +18,7 @@ const AboutMe = () => {
             </div>
             <div className="paragraph">
               <p>
-                I'm Keamogetswi Malau, a Frontend Software Engineer with a
+                I'm Thapelo Nobatana, a Frontend Software Engineer with a
                 passion for building engaging, user-friendly web applications.
                 Who loves crafting engaging, user-friendly web applications that
                 don’t just work well—they feel great to use. I specialize in

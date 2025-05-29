@@ -92,6 +92,10 @@
   display: none;
 }
 
+ .logo span {
+  font-size: 25px;
+}
+
 /* hover effect */
 .navbar .content img:hover {
     scale: 1;
