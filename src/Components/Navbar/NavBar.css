@@ -51,9 +51,12 @@
   background: #000000;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  width: 139px;
+  height: 52px;
+  font-size: large;
 }
 
 .navbar .content .mobile-links {
