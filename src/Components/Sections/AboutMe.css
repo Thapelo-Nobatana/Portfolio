@@ -1,0 +1,30 @@
+.about-me .content .image {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+
+
+
+.about-me .content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me .content .heading-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me .content .heading-content .paragraph p {
+    text-align: justify;
+    color: #000;
+}
+

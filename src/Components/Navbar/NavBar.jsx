@@ -13,7 +13,10 @@ const NavBar = () => {
         <div className="container">
           <div className="content">
             <a href="/" className="logo">
-              <img src="./public/Logo.PNG" alt="Logo" /> Thapelo Nobatana
+              <img src="./public/Logo.PNG" alt="Logo" />{" "}
+              <span>
+                <strong>Thapelo Nobatana</strong>
+              </span>
             </a>
             <nav className="links">
               <ul>

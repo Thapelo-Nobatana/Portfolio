@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 60px;
   /* text-transform: uppercase; */
   font-weight: 500;
 }
@@ -51,7 +51,13 @@ h4 {
 
 p {
   font-size: 18px;
+  font-weight: 500;
 }
+a {
+  font-size: larger;
+  font-weight: 400;
+}
+
 
 section {
   padding: 10px 0 0;
