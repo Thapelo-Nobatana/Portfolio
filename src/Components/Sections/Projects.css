@@ -12,10 +12,13 @@
     align-items: center;
 }
 
-.projects .content .projects-wrapper {
+.projects .content .projects-wrapper .project-wrapper {
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
 .projects .content .projects-wrapper .heading-wrapper {
@@ -27,4 +30,5 @@
 .projects .content .projects-wrapper .heading-wrapper .git-wrapper {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
