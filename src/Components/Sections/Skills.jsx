@@ -1,6 +1,5 @@
 // import React from 'react'
-// import { useRef } from "react";
-// import { motion, useScroll, useTransform } from "framer-motion";
+
 //  import icons
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -14,7 +13,6 @@ import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-useRef;
 //  import styles
 import "./Skills.css";
 
