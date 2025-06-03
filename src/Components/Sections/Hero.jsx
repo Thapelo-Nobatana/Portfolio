@@ -54,7 +54,7 @@ const Hero = () => {
           </div>
           {/* right-side Portraite-image */}
 
-          <img className="image" src="./public/Thapelo_Face.png" alt="image" />
+          <img className="image" src="/Thapelo_Face.png" alt="image" />
         </div>
       </div>
     </div>

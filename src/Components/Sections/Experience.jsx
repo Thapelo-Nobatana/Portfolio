@@ -15,7 +15,7 @@ const Experience = () => {
             <div className="experience-card">
               <div className="card-heading">
                 <div className="image">
-                  <img src="./public/JPITDevLogo.jpg" alt="JPIT-logo" />
+                  <img src="/JPITDevLogo.jpg" alt="JPIT-logo" />
                   <span>Frontend Developer at JPITDev</span>
                 </div>
                 <span>Jun 2024 - Present</span>
@@ -43,7 +43,7 @@ const Experience = () => {
             <div className="experience-card">
               <div className="card-heading">
                 <div className="image">
-                  <img src="./public/JDIT.png" alt="DPIT-logo" />
+                  <img src="/JDIT.png" alt="DPIT-logo" />
                   <span>
                     Frontend Developer (Volunteer) at Diamond Pinnacle Solutions
                   </span>
