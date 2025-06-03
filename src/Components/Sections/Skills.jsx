@@ -1,5 +1,5 @@
 // import React from 'react'
-import { useRef } from "react";
+// import { useRef } from "react";
 // import { motion, useScroll, useTransform } from "framer-motion";
 //  import icons
 import { FaReact } from "react-icons/fa";
@@ -33,53 +33,42 @@ const Skills = () => {
         </div>
         {/* swipper content */}
         <div className="swiper-content">
-          <motion.div
-            className="swiper-icons"
-            animate={{ x: 100 }}
-            transition={{
-              repeat: Infinity,
-              duration: 2,
-              type: "spring",
-              repeatType: "loop",
-            }}
-          >
-            <div className="swiper-icon">
-              <FaReact size={50} />
-            </div>
-            <div className="swiper-icon">
-              <IoLogoJavascript size={50} />
-            </div>
-            <div className="swiper-icon">
-              <BiLogoTypescript size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaGitAlt size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaSass size={50} />
-            </div>
-            <div className="swiper-icon">
-              <RiTailwindCssFill size={50} />
-            </div>
-            <div className="swiper-icon">
-              <PiFigmaLogo size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaBootstrap size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaHtml5 size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaCss3Alt size={50} />
-            </div>
-            <div className="swiper-icon">
-              <FaGithub size={50} />
-            </div>
-            <div className="swiper-icon">
-              <RiNextjsFill size={50} />
-            </div>
-          </motion.div>
+          <div className="swiper-icon">
+            <FaReact size={50} />
+          </div>
+          <div className="swiper-icon">
+            <IoLogoJavascript size={50} />
+          </div>
+          <div className="swiper-icon">
+            <BiLogoTypescript size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaGitAlt size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaSass size={50} />
+          </div>
+          <div className="swiper-icon">
+            <RiTailwindCssFill size={50} />
+          </div>
+          <div className="swiper-icon">
+            <PiFigmaLogo size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaBootstrap size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaHtml5 size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaCss3Alt size={50} />
+          </div>
+          <div className="swiper-icon">
+            <FaGithub size={50} />
+          </div>
+          <div className="swiper-icon">
+            <RiNextjsFill size={50} />
+          </div>
         </div>
       </div>
     </div>
