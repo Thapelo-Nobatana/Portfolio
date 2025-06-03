@@ -1,6 +1,6 @@
 // import React from 'react'
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+// import { motion, useScroll, useTransform } from "framer-motion";
 //  import icons
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
