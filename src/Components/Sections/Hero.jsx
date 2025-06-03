@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="content">
           {/* left-side heading-content */}
           <div className="heading-content">
-            <h2>
+            <h3>
               Hello, I am{" "}
               <span>
                 <strong>Thapelo Nobatana.</strong>
@@ -20,7 +20,7 @@ const Hero = () => {
               <strong>A Frontend Engineer</strong>
               <br />
               based in <strong>South Africa.</strong>
-            </h2>
+            </h3>
             <p>
               A Frontend Software Engineer who loves turning ideas into sleek,
               user-friendly web experiences. I work mostly with React.js,
