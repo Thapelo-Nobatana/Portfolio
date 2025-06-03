@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="content">
           {/* left-side of the content */}
 
-          <img className="image" src="./public/Thapelo_Face.png" alt="image" />
+          <img className="image" src="/Thapelo_Face.png" alt="image" />
 
           {/* right-side of the content */}
           <div className="heading-content">

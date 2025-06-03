@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="content">
-          <img src="./public/Logo.PNG" alt="logo" />
+          <img src="/Logo.PNG" alt="logo" />
           <p>copyright©ThapeloNobatana</p>
           <a href="#home">Back to top</a>
         </div>
