@@ -12,6 +12,10 @@
     align-items: flex-start;
 }
 
+.hero .content .heading-content h3 {
+    font-size: 28px;
+}
+
 .hero .content .heading-content .icons {
     display: flex;
     gap: 10px;
