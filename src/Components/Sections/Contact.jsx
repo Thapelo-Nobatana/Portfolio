@@ -20,25 +20,25 @@ const Contact = () => {
       message: e.target.message.value,
     };
 
-    // try {
-    //   // Sending Post request to the backend
-    //   const response = await axios.post(
-    //     `${import.meta.env.VITE_API_BASE_URL}/api/contact-us`,
-    //     formData
-    //   );
-    //   if (response.data.success) {
-    //     alert(response.data.message); // show success massage
-    //     e.target.reset();
-    //   } else {
-    //     setError(response.data.message); // show error message
-    //   }
-    // } catch (error) {
-    //   console.error("Error submitting form:", error);
-    //   setError("There was an error submitting the form. Please try again.");
-    // } finally {
-    //   setLoading(false);
-    //   setTimeout(() => setDrop(false), 600);
-    // }
+    try {
+      // Sending Post request to the backend
+      const response = await axios.post(
+        `${import.meta.env.VITE_API_BASE_URL}/api/contact-us`,
+        formData
+      );
+      if (response.data.success) {
+        alert(response.data.message); // show success massage
+        e.target.reset();
+      } else {
+        setError(response.data.message); // show error message
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setError("There was an error submitting the form. Please try again.");
+    } finally {
+      setLoading(false);
+      setTimeout(() => setDrop(false), 600);
+    }
   };
 
   return (
