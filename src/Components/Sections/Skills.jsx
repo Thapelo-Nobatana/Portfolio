@@ -19,11 +19,11 @@ useRef;
 import "./Skills.css";
 
 const Skills = () => {
-  const targetRef = useRef(null);
-  const { scrollXProgress } = useScroll({ target: targetRef });
-  const x = useTransform(scrollXProgress, [0, 1], ["0%", "-55%"]);
+  // const targetRef = useRef(null);
+  // const { scrollXProgress } = useScroll({ target: targetRef });
+  // const x = useTransform(scrollXProgress, [0, 1], ["0%", "-55%"]);
   return (
-    <div className="skills" ref={targetRef}>
+    <div className="skills">
       <div className="content">
         {/* Heading */}
         <div className="heading">
