@@ -9,21 +9,11 @@ import Contact from "../../Components/Sections/Contact";
 const Home = () => {
   return (
     <>
-      <section className="hero">
-        <Hero />
-      </section>
-      <section className="skills">
-        <Skills />
-      </section>
-      <section className="experience">
-        <Experience />
-      </section>
-      <section className="about-me">
-        <AboutMe />
-      </section>
-      <section className="project">
-        <Projects />
-      </section>
+      <section className="hero">{/* <Hero /> */}</section>
+      <section className="skills">{/* <Skills /> */}</section>
+      <section className="experience">{/* <Experience /> */}</section>
+      <section className="about-me">{/* <AboutMe /> */}</section>
+      <section className="project">{/* <Projects /> */}</section>
       <section className="contact-me">
         <Contact />
       </section>

@@ -49,6 +49,7 @@
 
 /* xl */
 @media (max-width: 1280px) {
+
 }
 
 /* lg */
@@ -58,12 +59,26 @@
 
 /* md */
 @media (max-width: 768px) {
-
+ 
+  .hero .content .heading-content p {
+    font-size: 16px;
+  }
 }
 
 /* sm */
 @media (max-width: 640px) {
-
+  .hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero .content .image {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
 }
 
 /* xs */

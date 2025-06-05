@@ -58,3 +58,40 @@
 .card-wrapper .experience-card:hover {
     opacity: 0.6;
 }
+
+/* Responsive Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+
+}
+
+/* md */
+@media (max-width: 768px) {
+ 
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+ 
+  .card-wrapper .experience-card .card-heading  {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    
+}

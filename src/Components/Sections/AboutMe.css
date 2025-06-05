@@ -4,10 +4,6 @@
     border-radius: 50px;
 }
 
-
-
-
-
 .about-me .content {
     display: flex;
     gap: 50px;
@@ -28,3 +24,38 @@
     color: #000;
 }
 
+/* Responsive Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+
+
+}
+
+/* md */
+@media (max-width: 768px) {
+ .about-me .content {
+    flex-direction: column-reverse;
+ }
+ .about-me .content .image {
+    width: 100%;
+ }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  
+}
+
+/* xs */
+@media (max-width: 475px) {
+}

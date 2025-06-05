@@ -16,7 +16,10 @@ const Experience = () => {
               <div className="card-heading">
                 <div className="image">
                   <img src="/JPITDevLogo.jpg" alt="JPIT-logo" />
-                  <span>Frontend Developer at JPITDev</span>
+                  <span className="position-text">
+                    <span className="position">Frontend Developer at</span>{" "}
+                    JPITDev
+                  </span>
                 </div>
                 <span>Jun 2024 - Present</span>
               </div>
@@ -44,8 +47,11 @@ const Experience = () => {
               <div className="card-heading">
                 <div className="image">
                   <img src="/JDIT.png" alt="DPIT-logo" />
-                  <span>
-                    Frontend Developer (Volunteer) at Diamond Pinnacle Solutions
+                  <span className="position-text">
+                    <span className="position">
+                      Frontend Developer (Volunteer) at
+                    </span>{" "}
+                    Diamond Pinnacle Solutions
                   </span>
                 </div>
                 <span>Jan 2024 - Dec 2024</span>
