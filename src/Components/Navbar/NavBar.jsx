@@ -1,6 +1,7 @@
 // import React from "react";
 import "./NavBar.css";
 import { useState } from "react";
+import { FaDownload } from "react-icons/fa6";
 import { TbMenu2 } from "react-icons/tb";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -12,7 +13,7 @@ const NavBar = () => {
       <div className="navbar">
         <div className="container">
           <div className="content">
-            <a href="/" className="logo">
+            <a href="#hero" className="logo">
               <img src="/Logo.PNG" alt="Logo" />{" "}
               <span>
                 <strong>Thapelo Nobatana</strong>
@@ -21,13 +22,13 @@ const NavBar = () => {
             <nav className="links">
               <ul>
                 <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>
                   <a href="#about-me">About me</a>
                 </li>
                 <li>
-                  <a href="#project">Projects</a>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -35,18 +36,22 @@ const NavBar = () => {
               <nav className="mobile-links">
                 <ul>
                   <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
                     <a href="#about-me">About Me</a>
                   </li>
                   <li>
-                    <a href="#project">Projects</a>
+                    <a href="#projects">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </nav>
             </div>
-            <button className="resume-btn">Resume</button>
+            <button className="resume-btn">
+              <a href="/resume_thapelo_nobatana.pdf" download>
+                Resume <FaDownload color="#ffffff" width={50} />{" "}
+              </a>
+            </button>
             <TbMenu2
               size={30}
               className="menu-icon"

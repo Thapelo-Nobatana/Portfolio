@@ -6,7 +6,7 @@ import { FaDiscord } from "react-icons/fa6";
 import "./Hero.css";
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="container">
         <div className="content">
           {/* left-side heading-content */}

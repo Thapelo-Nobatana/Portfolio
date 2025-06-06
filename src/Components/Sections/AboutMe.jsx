@@ -2,7 +2,7 @@
 import "./AboutMe.css";
 const AboutMe = () => {
   return (
-    <div className="about-me">
+    <div className="about-me" id="about-me">
       <div className="container">
         <div className="content">
           {/* left-side of the content */}

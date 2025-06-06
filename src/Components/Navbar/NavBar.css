@@ -55,9 +55,17 @@
   border-radius: 8px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
-  width: 139px;
+  width: 170px;
   height: 52px;
   font-size: large;
+}
+
+.navbar .content .resume-btn a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .navbar .content .mobile-links {
@@ -96,6 +104,7 @@
  .logo span {
   font-size: 25px;
 }
+
 
 /* hover effect */
 .navbar .content img:hover {
