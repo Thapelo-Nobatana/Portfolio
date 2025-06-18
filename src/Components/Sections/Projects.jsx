@@ -16,22 +16,27 @@ const Projects = () => {
           <div className="projects-wrapper">
             <div className="project-wrapper">
               {/* project 01 */}
-              <img src="" alt="project-image" />
+              <img src="/little-lemon.png" alt="project-image" width={400} />
               <div className="heading-wrapper">
                 <h1>01</h1>
-                <h2>BiteSwift Food Delivery App</h2>
+                <h2>Little Lemon Food restaurant App</h2>
                 <p>
-                  BiteSwift is a modern food delivery app that connects users
-                  with their favorite restaurants for quick, easy, and seamless
-                  food ordering. Built with React, Node.js, Express, and
-                  MongoDB, the app ensures a smooth user experience with
-                  real-time tracking, secure payments, and personalized
-                  recommendations.
+                  Little Lemon is a modern restaurant web app that makes dining
+                  effortless and enjoyable. Designed with React, the app allows
+                  users to book tables with ease, browse the menu, and place
+                  online orders—all from a clean, responsive interface. Built
+                  for convenience, Little Lemon streamlines the restaurant
+                  experience with user-friendly booking forms, dynamic menu
+                  rendering, and smooth navigation. Whether you're planning a
+                  night out or ordering your favorite dishes from home, Little
+                  Lemon delivers speed, simplicity, and style.
                 </p>
                 <div className="git-wrapper">
-                  <FaExternalLinkAlt />
+                  <a href="https://little-lemon-web.onrender.com">
+                    <FaExternalLinkAlt width={100} />
+                  </a>
 
-                  <a>
+                  <a href="https://github.com/Thapelo-Nobatana/Little-Lemon-web.git">
                     {" "}
                     git <FaGithub color="#ffffff" />
                   </a>
