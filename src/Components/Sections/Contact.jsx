@@ -1,4 +1,4 @@
-import axios from "axios";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 import { useState } from "react";
 
@@ -13,32 +13,29 @@ const Contact = () => {
     setLoading(true);
     setError("");
 
-    // Get form Data
-    const formData = {
-      name: e.target.name.value,
-      email: e.target.email.value,
-      message: e.target.message.value,
-    };
-
-    try {
-      // Sending Post request to the backend
-      const response = await axios.post(
-        `${import.meta.env.VITE_API_BASE_URL}/api/contact-us`,
-        formData
-      );
-      if (response.data.success) {
-        alert(response.data.message); // show success massage
-        e.target.reset();
-      } else {
-        setError(response.data.message); // show error message
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      setError("There was an error submitting the form. Please try again.");
-    } finally {
-      setLoading(false);
-      setTimeout(() => setDrop(false), 600);
-    }
+    emailjs
+      .sendForm(
+        "service_nnis0ly",
+        "template_x4fzgx7",
+        e.target,
+        "jC3LwI4j6CBauntWg"
+      )
+      .then(
+        (result) => {
+          alert("Message sent Successfully!");
+          console.log(result);
+          e.target.reset();
+        },
+        (error) => {
+          console.error("EmailJS error:", error);
+          setError("There was an error submitting the form. Please try again.");
+        }
+      )
+      .finally(() => {
+        setLoading(false);
+        drop;
+        setTimeout(() => setDrop(false), 600);
+      });
   };
 
   return (
@@ -54,6 +51,7 @@ const Contact = () => {
               name="message"
               id="message"
               placeholder="message"
+              required
             ></textarea>
             {error && <p className="error-message">{error}</p>}
             <button type="submit" disabled={loading}>
@@ -81,7 +79,9 @@ const Contact = () => {
               believe in the power of design to transform how users interact
               with technology.
             </p>
-            <a href="http://">nobatanathapelo@gmail.com</a>
+            <a href="mailto:nobatanathapelo@gmail.com">
+              nobatanathapelo@gmail.com
+            </a>
             <p>Call: 081 514 6476</p>
           </div>
         </div>

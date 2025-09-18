@@ -1,33 +1,32 @@
 .skills .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    justify-content: center;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  /* overflow: hidden; */
 }
 
 .skills .content .swiper-content {
-    display: flex;
+  display: flex;
 }
 
 .swiper-icons {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .swiper-icons .swiper-icon {
-    display: flex;
-    justify-content: center;
-    border: 3px solid black;
-    border-radius: 8px;
-    height: 350px;
-    align-items: center;
-    width: 320px;
-    margin: 16px 20px 60px 20px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  height: 350px;
+  align-items: center;
+  width: 320px;
+  margin: 16px 20px 60px 20px;
 }
-
 
 /* Responsive Media Queries */
 
@@ -37,25 +36,20 @@
 
 /* xl */
 @media (max-width: 1280px) {
-
 }
 
 /* lg */
 @media (max-width: 1024px) {
-
 }
 
 /* md */
 @media (max-width: 768px) {
- 
-
 }
 
 /* sm */
 @media (max-width: 640px) {
   .swiper-icons .swiper-icon {
     width: 150px;
-    
   }
 }
 

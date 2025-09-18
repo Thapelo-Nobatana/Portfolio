@@ -31,22 +31,22 @@ const Hero = () => {
             </p>
             <div className="icons">
               <button className="icon">
-                <a href="/">
+                <a href="https://github.com/Thapelo-Nobatana">
                   <FaGithub size={30} />
                 </a>
               </button>
               <button className="icon">
-                <a href="http://">
+                <a href="https://www.linkedin.com/in/thapelo-nobatana-549329339/">
                   <FaLinkedin size={30} />
                 </a>
               </button>
               <button className="icon">
-                <a href="/">
+                <a href="https://wa.me/27815146476" target="_blank">
                   <IoLogoWhatsapp size={30} />
                 </a>
               </button>
               <button className="icon">
-                <a href="/">
+                <a href="https://discord.gg/TvWtkK7a">
                   <FaDiscord size={30} />
                 </a>
               </button>
