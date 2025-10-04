@@ -82,7 +82,7 @@ const Projects = () => {
                   and anyone looking to bring their ideas to life visually.
                 </p>
                 <div className="git-wrapper">
-                  <a href="alx-project-0x05-setup-git-main-thapelo-nobatanas-projects.vercel.app">
+                  <a href="https://image-gen-ashy.vercel.app/">
                     <FaExternalLinkAlt />
                   </a>
 
