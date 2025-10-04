@@ -45,22 +45,22 @@ const Projects = () => {
             </div>
             <div className="project-wrapper">
               {/* project 02 */}
-              <img src="" alt="project-image" />
+              <img src="/Custome.png" alt="project-image" width={400} />
               <div className="heading-wrapper">
-                <h1>01</h1>
-                <h2>BiteSwift Food Delivery App</h2>
+                <h1>02</h1>
+                <h2>Costume House Gallery App</h2>
                 <p>
-                  BiteSwift is a modern food delivery app that connects users
-                  with their favorite restaurants for quick, easy, and seamless
-                  food ordering. Built with React, Node.js, Express, and
-                  MongoDB, the app ensures a smooth user experience with
-                  real-time tracking, secure payments, and personalized
-                  recommendations.
+                  An interactive e-commerce product catalog built with Next.js,
+                  TypeScript, Redux Toolkit, and Tailwind CSS. Users can
+                  seamlessly browse, filter, sort, and explore products with
+                  smooth pagination and infinite scrolling.
                 </p>
                 <div className="git-wrapper">
-                  <FaExternalLinkAlt />
+                  <a href=" https://alx-project-nexus-mocha.vercel.app/">
+                    <FaExternalLinkAlt />
+                  </a>
 
-                  <a>
+                  <a href="https://github.com/Thapelo-Nobatana/alx-project-nexus.git">
                     {" "}
                     git <FaGithub color="#ffffff" />
                   </a>
@@ -69,22 +69,24 @@ const Projects = () => {
             </div>
             <div className="project-wrapper">
               {/* project 03 */}
-              <img src="" alt="project-image" />
+              <img src="/GenAI.png" width={400} alt="project-image" />
               <div className="heading-wrapper">
-                <h1>01</h1>
-                <h2>BiteSwift Food Delivery App</h2>
+                <h1>03</h1>
+                <h2>ImageGen – AI-Powered Image Generation Web App</h2>
                 <p>
-                  BiteSwift is a modern food delivery app that connects users
-                  with their favorite restaurants for quick, easy, and seamless
-                  food ordering. Built with React, Node.js, Express, and
-                  MongoDB, the app ensures a smooth user experience with
-                  real-time tracking, secure payments, and personalized
-                  recommendations.
+                  ImageGen is an intuitive web application that allows users to
+                  generate stunning, AI-powered images directly from textual
+                  prompts. Leveraging modern AI image generation APIs, ImageGen
+                  transforms user descriptions into visually captivating images
+                  in seconds, making it perfect for designers, content creators,
+                  and anyone looking to bring their ideas to life visually.
                 </p>
                 <div className="git-wrapper">
-                  <FaExternalLinkAlt />
+                  <a href="alx-project-0x05-setup-git-main-thapelo-nobatanas-projects.vercel.app">
+                    <FaExternalLinkAlt />
+                  </a>
 
-                  <a>
+                  <a href="https://github.com/Thapelo-Nobatana/alx-project-0x05-setup.git">
                     {" "}
                     git <FaGithub color="#ffffff" />
                   </a>
