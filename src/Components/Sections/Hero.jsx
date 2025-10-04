@@ -46,7 +46,7 @@ const Hero = () => {
                 </a>
               </button>
               <button className="icon">
-                <a href="https://discord.gg/TvWtkK7a">
+                <a href="https://discord.gg/nnPdJKEECH" target="_blank">
                   <FaDiscord size={30} />
                 </a>
               </button>
