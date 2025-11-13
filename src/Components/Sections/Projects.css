@@ -1,45 +1,51 @@
 .projects {
-      background-color: #000;
-    color: #fff;
-    padding: 20px 0;
-    margin-bottom: 60px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 60px;
 }
 
 .projects .content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 
 .projects .content .projects-wrapper .project-wrapper {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 .projects .content .projects-wrapper .heading-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .projects .content .projects-wrapper .heading-wrapper .git-wrapper {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-decoration: none;
 }
 .projects .content .projects-wrapper .heading-wrapper .git-wrapper a {
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-    font-size: larger;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+  align-items: center;
+  gap: 5px;
 }
 
 /* Responsive Media Queries */
@@ -50,29 +56,25 @@
 
 /* xl */
 @media (max-width: 1280px) {
-
 }
 
 /* lg */
 @media (max-width: 1024px) {
-
-
 }
 
 /* md */
 @media (max-width: 768px) {
- .projects .content .projects-wrapper .project-wrapper {
+  .projects .content .projects-wrapper .project-wrapper {
     flex-direction: column-reverse;
     align-items: center;
- }
- .projects .content .projects-wrapper .project-wrapper img {
+  }
+  .projects .content .projects-wrapper .project-wrapper img {
     width: 100%;
- }
+  }
 }
 
 /* sm */
 @media (max-width: 640px) {
-  
 }
 
 /* xs */
