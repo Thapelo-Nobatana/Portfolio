@@ -93,6 +93,32 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            <div className="project-wrapper">
+              {/* project 04 */}
+              <img src="/piece_job.png" width={400} alt="project-image" />
+              <div className="heading-wrapper">
+                <h1>04</h1>
+                <h2>PIECE-JOB</h2>
+                <p>
+                  PieceJob is a modern job platform that connects young people
+                  and skilled individuals with flexible, short-term work
+                  opportunities in their local area. Whether you’re looking to
+                  earn extra income or gain real-world experience, PieceJob
+                  makes it easy to find jobs that match your skills — fast,
+                  reliable, and on your terms.
+                </p>
+                <div className="git-wrapper">
+                  <a href="https://piece-job.vercel.app/">
+                    <FaExternalLinkAlt />
+                  </a>
+
+                  <a href="https://github.com/Thapelo-Nobatana/alx-project-0x05-setup.git">
+                    {" "}
+                    git <FaGithub color="#ffffff" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
