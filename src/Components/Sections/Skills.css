@@ -1,3 +1,15 @@
+@font-face {
+  font-family: iconfont;
+  src: url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+}
+
+h3 {
+  font-family: iconfont;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
 .skills .content {
   display: flex;
   flex-direction: column;
@@ -19,6 +31,7 @@
 }
 .swiper-icons .swiper-icon {
   display: flex;
+
   justify-content: center;
   border: 3px solid black;
   border-radius: 8px;
@@ -26,6 +39,13 @@
   align-items: center;
   width: 320px;
   margin: 16px 20px 60px 20px;
+}
+
+.swiper-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 /* Responsive Media Queries */
@@ -55,4 +75,7 @@
 
 /* xs */
 @media (max-width: 475px) {
+  h3 {
+    font-size: 16px;
+  }
 }
