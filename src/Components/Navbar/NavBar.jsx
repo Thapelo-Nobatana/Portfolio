@@ -48,7 +48,7 @@ const NavBar = () => {
               </nav>
             </div>
             <button className="resume-btn">
-              <a href="/Thapelo_Nobatana_CV.pdf" download>
+              <a href="/NobatanaThapelo_CV.pdf" download>
                 Resume <FaDownload color="#ffffff" width={50} />{" "}
               </a>
             </button>
