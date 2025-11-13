@@ -19,39 +19,51 @@ const SkillCard = () => {
       <div className="swiper-icons">
         <div className="swiper-icon">
           <FaReact size={70} />
+          <h3>React</h3>
         </div>
         <div className="swiper-icon">
           <IoLogoJavascript size={80} />
+          <h3>JavaScript</h3>
         </div>
         <div className="swiper-icon">
           <BiLogoTypescript size={80} />
+          <h3>TypeScript</h3>
         </div>
         <div className="swiper-icon">
           <FaGitAlt size={80} />
+          <h3>Git</h3>
         </div>
         <div className="swiper-icon">
           <FaSass size={80} />
+          <h3>Sass</h3>
         </div>
         <div className="swiper-icon">
           <RiTailwindCssFill size={80} />
+          <h3>Tailwind CSS</h3>
         </div>
         <div className="swiper-icon">
           <PiFigmaLogo size={80} />
+          <h3>Figma</h3>
         </div>
         <div className="swiper-icon">
           <FaBootstrap size={80} />
+          <h3>Bootstrap</h3>
         </div>
         <div className="swiper-icon">
           <FaHtml5 size={80} />
+          <h3>HTML:5</h3>
         </div>
         <div className="swiper-icon">
           <FaCss3Alt size={80} />
+          <h3>CSS:3</h3>
         </div>
         <div className="swiper-icon">
           <FaGithub size={80} />
+          <h3>GitHub</h3>
         </div>
         <div className="swiper-icon">
           <RiNextjsFill size={80} />
+          <h3>Next.js</h3>
         </div>
       </div>
     </>
