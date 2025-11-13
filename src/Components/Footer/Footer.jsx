@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="content">
           <img src="/Logo.PNG" alt="logo" />
           <p>copyright©ThapeloNobatana</p>
-          <a href="#home">Back to top</a>
+          <a href="#hero">Back to top</a>
         </div>
       </div>
     </div>
